@@ -10,4 +10,6 @@ class TitleMenuBar:
         bg_height = 600
 
         self.canvas.create_rectangle(self.root_width / 2 - bg_width / 2, self.root_height / 2 + bg_height / 2, self.root_width / 2 + bg_width / 2, self.root_height / 2 - bg_height / 2, fill="gray")
+
+        self.canvas.cre
         
