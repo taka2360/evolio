@@ -40,7 +40,9 @@ class CanvasButton(Widget):
         canvas.bind("<Button-1>", self._check)
 
     def _check(self, event):
-        if self.x < event.x < self.x + self.width
+        #マウスが触れているか調べる
+        if self.x < event.x < self.x + self.width and self.y < event.y < self.y + self.height:
+            self.onclick()
 
 def keepAspectResize(image:Image, width, height) -> Image:
     """アスペクト比を維持してリサイズ"""
