@@ -51,7 +51,7 @@ class App:
             height=self.window_height,
             borderwidth=0,
             highlightthickness=0,
-            bg="black",
+            bg="#303030",
         )
         self.canvas.pack()
 
